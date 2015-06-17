@@ -5,7 +5,7 @@ namespace Roots\Sage\Init;
 use Roots\Sage\Assets;
 
 /**
- * Theme setup
+ * Theme setup (navigation menus, post thumbnail sizes, post formats, and sidebars)
  */
 function setup() {
   // Make theme available for translation
