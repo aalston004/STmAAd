@@ -10,14 +10,14 @@
  * @link https://github.com/roots/sage/pull/1042
  */
 $sage_includes = [
-  'lib/utils.php',                 // Utility functions
-  'lib/init.php',                  // Initial theme setup and constants
+  'lib/utils.php',                 // Define a custom location for the searchform template
+  'lib/init.php',                  // Register navigation menus, sidebars, and define theme support for WordPress core functionality such as post thumbnails, post formats, and HTML5 markup.
   'lib/wrapper.php',               // Theme wrapper class
   'lib/conditional-tag-check.php', // ConditionalTagCheck class
-  'lib/config.php',                // Configuration
-  'lib/assets.php',                // Scripts and stylesheets
-  'lib/titles.php',                // Page titles
-  'lib/extras.php',                // Custom functions
+  'lib/config.php',                // Enable/disable theme features and set configuration values
+  'lib/assets.php',                // Enqueue stylesheets and scripts
+  'lib/titles.php',                // Control the output of page titles
+  'lib/extras.php',                // Contains a function for adding classes to <body> and a function that adds a ‘Continued’ link to excerpts
 ];
 
 foreach ($sage_includes as $file) {
